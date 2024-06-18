@@ -1,0 +1,15 @@
+@apiUrl = http://localhost:5179
+
+GET {{apiUrl}}/users/
+Accept: application/json
+
+POST {{apiUrl}}/users/
+Accept: application/json
+{
+  "name": "Anderson",
+  "lastName": "Martins",
+  "email": "anderson.wdm@gmail.com",
+  "birthday": "06/10/1987"
+}
+
+###
